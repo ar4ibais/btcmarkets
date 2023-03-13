@@ -1,0 +1,25 @@
+.container__header{
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation__panel{
+    width: 510px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.img__logo{
+    height: 17px;
+    width: 182px;
+    background: url("./img/Logo.png") center center / cover no-repeat;
+}
+.navigation__item{
+    font-family: var(--FontMain);
+}
+.check_mark{
+    width: 12px;
+    height: 7px;
+    background: url('./img/mark_check.png') center center/ cover no-repeat;
+}
