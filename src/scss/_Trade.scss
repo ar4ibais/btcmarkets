@@ -1,0 +1,47 @@
+.Trade{
+    margin-top: 7%;
+    height: 630px;
+
+}
+.trade__causes{
+    margin-top: 8%;
+    width: 216px;
+    height: 126px;
+}
+.trade__causes__row{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between  ;
+    width: 50%;
+}
+.Trade__title-mini{
+    font-family: var(--FontMain);
+    font-size: 16px;
+}
+.Trade__title{
+    margin-top: 2%;
+    width: 50%;
+    font-family: var(--FontMain);
+    font-size: 40px;
+}
+.trade__causes-mini{
+    margin-top: 8%;
+    font-family: var(--FontMain);
+    font-size: 16px;
+}
+.trade__causes__desc{
+    margin-top: 4%;
+    font-family: var(--FontMain);
+    font-size: 14px;
+}
+.TradePhone{
+    width: 524px;
+    height: 414px;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+.main__trade__row{
+    display: flex;
+    justify-content: space-between;
+}
