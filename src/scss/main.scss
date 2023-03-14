@@ -3,8 +3,9 @@
 @import './vars';
 @import './reset';
 // подключения компонентов страницы
-@import "./header";
-@import "./GoogleAdd";
-@import "./Causes";
-@import "./Trade";
+@import "./components/header";
+@import "./components/causes";
+@import "./components/google-add";
+@import "./components/trade";
+@import "./components/currencies";
 // Основыные стили
