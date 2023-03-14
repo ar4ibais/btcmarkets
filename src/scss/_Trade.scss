@@ -16,12 +16,13 @@
     width: 50%;
 }
 .Trade__title-mini{
+    width: 100%;
     font-family: var(--FontMain);
     font-size: 16px;
 }
 .Trade__title{
+    width: 100%;
     margin-top: 2%;
-    width: 50%;
     font-family: var(--FontMain);
     font-size: 40px;
 }
@@ -38,10 +39,15 @@
 .TradePhone{
     width: 524px;
     height: 414px;
-    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 5%;
 }
 .main__trade__row{
     display: flex;
     justify-content: space-between;
+}
+.WalletPhone{
+    width: 524px;
+    height: 460px;
+    margin-top: 10%;
 }
