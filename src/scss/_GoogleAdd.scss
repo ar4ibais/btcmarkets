@@ -1,0 +1,50 @@
+.GoogleAdd{
+    display: flex;
+    width: var(--wi);
+    height: 536px;  
+    margin-top: 8%;
+}
+.main__info{
+    width: 70%;
+    font-family: var(--FontMain);
+}
+.title__text{
+    font-size: calc(71px);
+}
+.main__text{
+    margin-top: 7%;
+    width: 55%;
+    font-size: 20px;
+}
+.Btn__getstarted , .Btn__View {
+    font-family: var(--FontMain);
+    width: 156px;
+    height: 38px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.btns__main{
+    margin-left: 1%;
+    margin-top: 4%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.Btn__getstarted{
+    background: #4CFDC7;
+}
+.Btn__View{
+    width: 220px;
+    border: 2px solid black
+}
+.Google__rate{
+    margin-top: 5%;
+}
+.Phone{
+    width: 293px;
+    height: 536px;
+
+}
