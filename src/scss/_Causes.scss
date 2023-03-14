@@ -1,0 +1,41 @@
+.Causes{
+    height: 547px;
+    margin-top: 10%;
+}
+.question{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--FontMain);
+    font-size: 46px;
+}
+.Causes__row{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.speed , .support, .security{
+    width: 269px;
+    height: 203px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: var(--FontMain);
+}
+.mess, .flesh, .lock{
+    height: 40px;
+    width: 40px;
+
+}
+.causes__text{
+    margin-top: 5%;
+    font-size: 20px;
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.desc{
+    text-align: center;
+}
