@@ -1,0 +1,77 @@
+.vip{
+    margin-top: 15%;
+    height: 1100px;
+
+}
+.main__info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: inherit;
+}
+.vip__item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vip__mini__title{
+    font-size: 15px;
+}
+.vip__big__title{
+    margin-top: 2%;
+    width: 50%;
+    font-size: 40px;
+    text-align: center;
+}
+.vip__item__desc{
+    margin-top: 5%;
+    font-size: 15px;
+}
+.vip__causes{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.vip__row{
+    width: 33%;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.btn__row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.btn__learnmore{
+    width: 159px;
+    height: 38px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vip__desc{
+    font-size: 16px;
+    margin-left: 3%;
+    text-align: center;
+}
+.pic__row{
+    width: 1082px;
+    height: 500px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__pic{
+    width: 1082px;
+    height: 472px;
+}
