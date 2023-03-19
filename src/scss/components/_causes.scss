@@ -16,16 +16,19 @@
     justify-content: space-around;
 }
 .speed , .support, .security{
-    width: 269px;
-    height: 203px;
+    width: 280px;
+    height: 210px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-family: var(--FontMain);
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
+
 .mess, .flesh, .lock{
     height: 40px;
     width: 40px;
+    margin-top: 20px;
 
 }
 .causes__text{
