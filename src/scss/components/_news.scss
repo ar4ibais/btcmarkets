@@ -90,3 +90,16 @@
 .socials__links__text{
     display: flex;
 }
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    &-button-next::after,
+    &-button-prev::after {
+        display: none;
+    }
+    &-button-next,
+    &-button-prev {
+        z-index: 10;
+    }
+}
