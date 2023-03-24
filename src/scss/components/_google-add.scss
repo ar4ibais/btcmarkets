@@ -56,14 +56,50 @@
     0%{opacity: 0; transform: translateX(120%);}
     100%{opacity:1;transform: translate(0);}
 }
-// .Btn__getstarted:hover{
-//     width: 153px;
-//     height: 36px;
-//     margin-left: 2px;
-//     margin-bottom: 2px;
-// }
-// .Btn__View:hover{
-//     width: 214px;
-//     height: 36px;
-//     margin-right: 3px;
-// }
+
+
+@media (max-width: 1150px) {
+    .title__text {
+        font-size: 55px;
+        width: auto;
+        max-width: 560px;
+    }
+    .main__text {
+        max-width: 411px;
+        width: auto;
+    }
+    .btns__main {
+        max-width: 390px;
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .Phone {
+        display: none;
+    }
+    .main__info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .title__text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 420px) {
+    .title__text {
+        font-size: 30px;
+    }
+    .main__text {
+        font-size: 16px;
+    }
+    .btns__main {
+        display: block;
+        a + a {
+            margin-top: 15px;
+        }
+    }
+}

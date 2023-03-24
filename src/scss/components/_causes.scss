@@ -42,3 +42,23 @@
 .desc{
     text-align: center;
 }
+
+
+@media (max-width: 920px) {
+    .Causes__row {
+        display: block;
+    }
+    .speed,
+    .support,
+    .security {
+        width: 100%;
+        margin-bottom: 30px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .question {
+        font-size: 36px;
+    }
+}
