@@ -1,7 +1,6 @@
 .vip{
     margin-top: 15%;
-    height: 1100px;
-
+    margin-bottom: 100px;
 }
 .main__info__vip{
     width: 100%;
@@ -69,14 +68,53 @@
     text-align: center;
 }
 .pic__row{
-    width: 1082px;
-    height: 500px;
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section__pic{
-    width: 1082px;
-    height: 472px;
+
+
+@media (max-width: 1110px) {
+    .vip__item,
+    .vip__big__title {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .vip__big__title {
+        font-size: 34px;
+    }
+    .vip__item__desc {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 580px) {
+    .vip__desc {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 500px) {
+    .vip__causes {
+        display: block;
+    }
+    .vip__row {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .vip__big__title {
+        font-size: 25px;
+    }
+    .pic__row {
+        margin-top: 65px;
+    }
+    .btn__learnmore {
+        width: 100%;
+        height: 100%;
+        padding: 8px 25px; 
+        font-size: 14px;
+    }
 }

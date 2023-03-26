@@ -55,8 +55,54 @@
     display: flex;
     justify-content: space-between;
 }
+
 .WalletPhone{
     width: 524px;
     height: 460px;
     margin-top: 10%;
+}
+
+
+@media (max-width: 1110px) {
+    .TradePhone,
+    .WalletPhone {
+        display: none;
+    }
+    .trade__causes__row {
+        width: auto;
+    }
+}
+
+@media (max-width: 920px) {
+    .Trade {
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 670px) {
+    .Trade {
+        margin-top: 60%;
+    } 
+}
+
+@media (max-width: 525px) {
+    .Trade__title {
+        font-size: 34px;
+    }
+    .trade__causes {
+        width: 100%;
+    }
+    .wallet {
+        margin-top: 60%;
+    }
+}
+
+@media (max-width: 425px) {
+    .Trade__title {
+        font-size: 30px;
+    }
+    .Trade,
+    .wallet {
+        margin-top: 70%;
+    } 
 }

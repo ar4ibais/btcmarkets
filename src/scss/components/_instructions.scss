@@ -51,3 +51,49 @@
     margin-left: 50%;
     transform: translate(-15%);
 }
+
+
+
+@media (max-width: 992px) {
+    .instructions__title {
+        max-width: 350px;
+        width: 100%;
+    }
+    .instructions__causes__row {
+        padding-left: 0;
+        margin-top: 8%;
+    }
+    .instructions__btn {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .instructions__title {
+        font-size: 40px;
+    }
+    .instructions__mini__title {
+        font-size: 17px;
+    }
+    .instructions__desc {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .instructions__causes__row {
+        display: block;
+        margin-bottom: 40px;
+        .rows {
+            margin-top: 30px;
+        }
+    }
+    .img__insrtuction, .instructions__mini__title, .instructions__desc {
+        margin-top: 3%;
+    }
+    .btn__with__rate {
+        max-width: fit-content;
+        margin: 0 auto;
+        transform: translate(0);
+    }
+}
