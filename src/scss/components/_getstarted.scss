@@ -9,3 +9,23 @@
 .getstart{
     margin-top: 3%;
 }
+
+@media (max-width: 992px) {
+    .getstarted {
+        margin-bottom: 100px;
+        height: auto;
+    }
+    .getstarted__text {
+        width: 100%;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    .getstarted {
+        margin-top: -30px;
+    }
+    .getstarted__text {
+        font-size: 36px;
+    }
+}

@@ -38,3 +38,23 @@
     width: 100%;
     font-size: 16px;
 }
+
+
+@media (max-width: 768px) {
+    .mainlinks {
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .mainlinks {
+        margin-top: 50px;
+    }
+    .links__title {
+        font-size: 38px;
+    }
+    .links__desc {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
