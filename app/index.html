@@ -9,16 +9,17 @@
   <title>BTC Markets</title>
   <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <script defer src="js/main.js"></script>
 </head>
-
 
 <body class="page__body">
   <div class="site-container">
     <header class="header">
   <div class="container container__header">
-      <a href="" class="logo__link"><img src="../svg/Logo.svg" alt = "not founded" class="svg__logo"></img></a>
+      <a href="" class="logo__link"><img src="../svg/Logo.svg" alt = "not founded" class="svg__logo header__logo"></img></a>
       <div class="interactive__items interactive__items--active">
         <nav >
           <ul class="navigation__panel">
@@ -77,8 +78,8 @@
   </div>
 </header>
     <main class="main">
-      <section class = "GoogleAdd container">
-    <div class="main__info">
+      <section class="GoogleAdd container">
+    <div class="main__info" data-aos="fade-right">
         <div class="title__text">Buy, sell and trade crypto today</div>
         <div class="main__text">Trade with confidence and build your future with Australia’s fastest crypto exchange.</div>
         <div class="btns__main">
@@ -126,7 +127,7 @@
     </div>
 </section>
       <section class="Causes container">
-    <div class="question">Why BTC Markets?</div>
+    <div class="question" data-aos="fade-right">Why BTC Markets?</div>
     <div class="Causes__row">
         <div class="security">
             <img src="../svg/Lock.svg" alt="not founded" class="lock">
@@ -146,7 +147,7 @@
     </div>
 </section>
       <section class="Trade container">
-    <div class="main__trade__row"> 
+    <div class="main__trade__row" data-aos="fade-right"> 
         <div class="trade__causes__row">
             <div class="Trade__title-mini">TRADE</div>
             <div class="Trade__title">Buy, sell and trade crypto with confidence</div>
@@ -174,14 +175,14 @@
             </div>
             
         </div>
-        <img src="../img/TradePhone.png" alt="not founded" class = "TradePhone">
+        <img src="../img/TradePhone.png" alt="not founded" class = "TradePhone" data-aos="flip-right" data-aos-duration="4000">
     </div>
     
 </section>
       <section class=" container wallet">
 
     <div class="main__trade__row">
-        <img src="../img/WalletPhone.png" alt="not founded" class = "WalletPhone">
+        <img src="../img/WalletPhone.png" alt="not founded" class = "WalletPhone" data-aos="zoom-in">
         <div class="trade__causes__row">
             <div class="Trade__title-mini">Wallet</div>
             <div class="Trade__title">Simple and secure wallet services</div>
@@ -235,14 +236,14 @@
     </div>
     <div class="btn__row"><a href="#"><div class="btn__learnmore">Learn more</div></a></div>
     <div class="pic__row">
-        <img src="../img/bigpictureinmid.png" alt="not founded" class = "section__pic">
+        <img src="../img/bigpictureinmid.png" alt="not founded" class = "section__pic" data-aos="fade-up">
     </div>
 </section>
       <section class="instructions container">
     <div class="title__row">   
          <div class="instructions__title">Start trading in 3 easy steps</div>
     </div>
-    <div class="instructions__causes__row">
+    <div class="instructions__causes__row animate__animated animate__fadeInDown">
         <div class="rows">
             <img src="../svg/Create.svg" alt="not founded" class="img__insrtuction">
             <div class="instructions__mini__title">1. Create</div>
@@ -265,7 +266,7 @@
     </div>
    
 </section>
-      <setion class="mainlinks container">
+      <setion class="mainlinks container" data-aos="fade-left">
     <div class="main__info__links">
         <div class="links__title">Trade on the go</div>
         <div class="desc__row"><div class="links__desc">Place simple and advanced trades on the go with the BTC Markets app. You can also manage your portfolio, monitor prices, and track market movements, anywhere, anytime.</div></div>        
@@ -353,7 +354,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </section>
-      <section class="getstarted container">
+      <section class="getstarted container" data-aos="fade-right">
     <div class="getstarted__text">Create an account and start trading with us today!</div>
     <a href="#"><div class="Btn__getstarted getstart">Get started</div></a>
 </section>
@@ -464,6 +465,11 @@
     
     
   </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

@@ -48,14 +48,14 @@
 .Phone{
     width: 293px;
     height: 536px;
-    opacity: 0;
-    transform: translateX(120%);
-    animation: lt 1.5s forwards;
+    // opacity: 0;
+    // transform: translateX(120%);
+    // animation: lt 1.5s forwards;
 }
-@keyframes lt{
-    0%{opacity: 0; transform: translateX(120%);}
-    100%{opacity:1;transform: translate(0);}
-}
+// @keyframes lt{
+//     0%{opacity: 0; transform: translateX(120%);}
+//     100%{opacity:1;transform: translate(0);}
+// }
 
 
 @media (max-width: 1150px) {

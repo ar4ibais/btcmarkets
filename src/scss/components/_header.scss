@@ -62,6 +62,10 @@ nav{
     display: none;
 }
 
+.header__logo {
+    margin-bottom: 0 !important;
+}
+
 
 @media (max-width: 1050px) {
     .header {

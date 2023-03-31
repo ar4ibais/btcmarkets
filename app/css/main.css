@@ -2,6 +2,7 @@
 body {
   font-family: "Lexend", sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .container {
@@ -201,6 +202,10 @@ nav {
 
 .header__mob-btn {
   display: none;
+}
+
+.header__logo {
+  margin-bottom: 0 !important;
 }
 
 @media (max-width: 1050px) {
@@ -431,39 +436,8 @@ nav {
 .Phone {
   width: 293px;
   height: 536px;
-  opacity: 0;
-  -webkit-transform: translateX(120%);
-  -ms-transform: translateX(120%);
-  transform: translateX(120%);
-  -webkit-animation: lt 1.5s forwards;
-  animation: lt 1.5s forwards;
 }
 
-@-webkit-keyframes lt {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(120%);
-    transform: translateX(120%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-}
-
-@keyframes lt {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(120%);
-    transform: translateX(120%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-}
 @media (max-width: 1150px) {
   .title__text {
     font-size: 55px;
